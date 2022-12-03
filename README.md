@@ -52,7 +52,7 @@ rm -rf app
 cp -R ../my-old-remix-app/app app
 ```
 
-```md
+```sh
 echo "# remix-jokes-course" >> README.md
 git init
 git add README.md
