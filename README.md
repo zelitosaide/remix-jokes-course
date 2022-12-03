@@ -51,3 +51,13 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+
+```md
+echo "# remix-jokes-course" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:zelitosaide/remix-jokes-course.git
+git push -u origin main
+```
